@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EAMCET College Explorer</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>EAMCET College Explorer</h1>
+
+        <!-- College Selection -->
+
+        <div class="card">
+
+            <h2>Select College</h2>
+
+            <select id="collegeSelect">
+
+                <option value="">
+                    -- Select College --
+                </option>
+
+            </select>
+
+            <button onclick="loadDepartments()">
+                Show Departments
+            </button>
+
+        </div>
+
+        <!-- Departments -->
+
+        <div class="card">
+
+            <h2>Departments</h2>
+
+            <div id="departments">
+
+            </div>
+
+        </div>
+
+        <!-- Students -->
+
+        <div class="card">
+
+            <h2>Students of Selected Department</h2>
+
+            <div id="students">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>

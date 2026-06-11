@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 2px 10px rgba(
+        0,
+        0,
+        0,
+        0.1
+    );
+}
+
+select {
+    width: 300px;
+    padding: 10px;
+}
+
+button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.department-btn {
+
+    display: block;
+
+    width: 300px;
+
+    margin-top: 10px;
+
+    padding: 12px;
+
+    text-align: left;
+
+    border: none;
+
+    border-radius: 6px;
+
+    background: #e8eefc;
+
+    cursor: pointer;
+}
+
+.department-btn:hover {
+    background: #d7e5ff;
+}
+
+.student-card {
+
+    padding: 12px;
+
+    margin-top: 10px;
+
+    border-radius: 6px;
+
+    background: #f7f7f7;
+
+    border-left: 5px solid #3b82f6;
+}
